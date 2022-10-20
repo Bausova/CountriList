@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body{
+  background-image: url(full-shot-travel-concept-with-landmarks.jpg);
+  background-repeat: no-repeat;
+  background-size: cover ;
   min-height: 100vh;
+  background-position: center;
+  background-color: azure;
+}
+
+.all{
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+.bodyFone{
+  background-color: azure;
+  opacity: 0.7;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.bodyTwo{
+ display: flex;
+ justify-content: flex-end;
+ font-family: 'Fuzzy Bubbles', cursive, initial;
+opacity: 0.5;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.crossed{
+  text-decoration: line-through 2px #B1AFFF ;
 }
+
+ul, li {
+  list-style: none;
+  font-size: 25px;
+  color: #3F0071;
+  background-color: #FDFDBD ;
+  font-family: 'Fuzzy Bubbles', cursive;
+
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.containerTwo{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+input{
+  font-size: 30px;
+  width: 100%;
+  text-align:center;
+  font-family: 'Fuzzy Bubbles', cursive;
+  opacity: 0.7;
+}
+
+input:hover{
+  background-color: azure;
+}
+
+button{
+  background-color: #00FFD1 ;
+  padding: 15px;
+  border: 2px solid #CDFCF6;
+  font-size: 20px;
+  opacity: 0.7;
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+button:hover{
+  font-size: 25px;
+ 
+
+}
+
+h1 {
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+
+h3{
+  margin-bottom: 5px;
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.delete{
+  margin-top: 160px;
+}
+
+.delete:hover{
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
